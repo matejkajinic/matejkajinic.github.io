@@ -23,6 +23,8 @@ I have an M.S. in Computer Science, where I researched using neural networks to 
 
 I study real world and physical limits of tech progress.
 
+* **[ATLAS: Autonomous Task-Learning Agent System (October 2024)](https://github.com/matejkajinic/ATLAS)** - ATLAS autonomously learns, plans, and executes tasks across business operations while maintaining compliance and security
+
 * **Energy Is All You Need** (Internal Paper, June 2024) - thesis why we need more nuclear and solar energy to power AI's growth, guiding infrastructure investments
 
 * **The Economics of Intelligence** (Internal Paper, March 2024) - detailed research of chip supply chain, bottlenecks, and predicts GPU needs in near and mid-term future
