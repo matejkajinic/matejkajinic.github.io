@@ -9,7 +9,7 @@ I have an M.S. in Computer Science, where I researched using neural networks to 
 
 * **Venture capital** - sourced early startups (e.g., Cursor, Perplexity) with >15x theoretical returns in 18 months, led tech DD on 20+ deals (e.g., Groq, MavenAGI)
 
-* **Public markets** - over 10 years of investing outperforming benchmark by 46.9 percentage points
+* **Public markets** - over 10 years of investing in equities and digital assets, outperforming benchmark(S&P500)by 46.9 percentage points
 
 * **Founder** - built and led early forms of spatial intelligence, creating predictive "world models" from geospatial data to solve physical challenges
 
