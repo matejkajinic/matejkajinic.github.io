@@ -31,7 +31,7 @@ I study real world and physical limits of tech progress.
 
 * **[PhotoRewind](https://photorewind.com/)** - AI tool to fix old, damaged photos with machine learning. Built with Elixir, Phoenix; runs on Raspberry Pi 5.
 
-* **[AI for Historical Document Analysis](https://github.com/matejkajinic/3A-D20)** - natural language (NLP) system with long short-term memory (LSTM) to read and analyze handwritten docs from Dubrovnik archives from 13th century (Python, Tesseract OCR, OpenCV, Pandas)
+* **[AI for Historical Document Analysis](https://github.com/matejkajinic/3A-D20)** - natural language processing (NLP) system with long short-term memory (LSTM) to read and analyze handwritten docs from Dubrovnik archives from 13th century (Python, Tesseract OCR, OpenCV, Pandas)
 
 * **[Drone Swarm Simulation](https://github.com/matejkajinic/ros-flocking)** - simulates group drone flights with ROS (C++, ROS, Gazebo, Python)
 
