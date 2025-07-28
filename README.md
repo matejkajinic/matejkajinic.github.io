@@ -79,7 +79,7 @@ I study real world and physical limits of tech progress.
   Thesis: "Radio Signal Propagation Models in Urban Areas"
   
 
-  ## Things that I like to do in free time
+## Things that I like to do in free time
 * **[Kryptos sculpture - K4 (unsolved)](https://matejkajinic.github.io/kryptos-k4/)** - attempt to solve remaining Kryptos sculpture
 
 * **[SECP256K1 curve visualization](https://github.com/matejkajinic/secp256k1-viz/)** - visualizing Bitcoin's SECP256K1 elliptic curve
