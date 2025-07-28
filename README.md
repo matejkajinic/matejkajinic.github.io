@@ -77,6 +77,7 @@ I study real world and physical limits of tech progress.
 
 * **B.S. in Electrical Engineering & Communication Technologies**, University of Dubrovnik  
   Thesis: "Radio Signal Propagation Models in Urban Areas"
+  
 
   ## Things that I like to do in free time
 * **[Kryptos sculpture - K4 (unsolved)](https://matejkajinic.github.io/kryptos-k4/)** - attempt to solve remaining Kryptos sculpture
@@ -85,11 +86,13 @@ I study real world and physical limits of tech progress.
 
 * **[Double pendulum simulation](https://github.com/matejkajinic/double-pendulum-simulation)** - visualization of double pendulum simulation
 
-* **[The Manifestos](https://github.com/matejkajinic/the-manifestos) - list inspired by conversation between David Perell and venture capitalist Marc Andreessen, Marc concluded: 'It's amazing there aren't more manifestos.'
+* **[The Manifestos](https://github.com/matejkajinic/the-manifestos)** - list inspired by conversation between David Perell and venture capitalist Marc Andreessen, Marc concluded: 'It's amazing there aren't more manifestos.'
 
 
 ## Contact
 
 firstnamelastname at gmail dot com
+
 x dot com /matejkajinic
+
 in dot com /matejkajinic
