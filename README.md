@@ -25,6 +25,8 @@ I study real world and physical limits of tech progress.
 
 * **[ATLAS: Autonomous Task-Learning Agent System (October 2024)](https://github.com/matejkajinic/ATLAS)** - ATLAS autonomously learns, plans, and executes tasks across business operations while maintaining compliance and security
 
+* **[AI Architectures (October 2024)](https://github.com/matejkajinic/AI-architectures)** - comparison of AI Architectures: Large Language Models (LLMs), Liquid Neural Networks (LNNs), and Neuromorphic AI
+
 * **[Nuclear Energy (July 2024)](https://github.com/matejkajinic/nuclear-energy)** - market overview of nuclear reactor technologies
 
 * **Energy Is All You Need** (Internal Paper, June 2024) - thesis why we need more nuclear and solar energy to power AI's growth, guiding infrastructure investments
