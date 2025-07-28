@@ -5,6 +5,8 @@ I also believe there are two currencies of today: **FLOPS (intelligence)** and *
 
 I have an M.S. in Computer Science, where I researched using neural networks to forecast financial market trends. I also have a B.S. in Electrical Engineering & Communication Technologies, focused on electromagnetic waves and real-world propagation models.
 
+
+
 ## Highlights
 
 * **Venture capital** - sourced early startups (e.g., Cursor, Perplexity) with >15x theoretical returns in 18 months, led tech DD on 20+ deals (e.g., Groq, MavenAGI)
@@ -14,6 +16,8 @@ I have an M.S. in Computer Science, where I researched using neural networks to 
 * **Founder** - built and led early forms of spatial intelligence, creating predictive "world models" from geospatial data to solve physical challenges
 
 * **Operator** - led Mountain Rescue Service unit for 6 years, participated in some of the most complex cave rescue operations in the world
+
+
 
 ## Research and writing
 
@@ -80,3 +84,12 @@ I study real world and physical limits of tech progress.
 * **[SECP256K1 curve visualization](https://github.com/matejkajinic/secp256k1-viz/)** - visualizing Bitcoin's SECP256K1 elliptic curve
 
 * **[Double pendulum simulation](https://github.com/matejkajinic/double-pendulum-simulation)** - visualization of double pendulum simulation
+
+* **[The Manifestos](https://github.com/matejkajinic/the-manifestos) - list inspired by conversation between David Perell and venture capitalist Marc Andreessen, Marc concluded: 'It's amazing there aren't more manifestos.'
+
+
+## Contact
+
+firstnamelastname at gmail dot com
+x dot com /matejkajinic
+in dot com /matejkajinic
