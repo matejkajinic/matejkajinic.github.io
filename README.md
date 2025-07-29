@@ -61,13 +61,13 @@ I study real world and physical limits of tech progress.
   Source early-stage companies in AI, energy, robotics, and silicon. Lead research, tech due dilligence and write investment reports.
 
 * **Data Strategy and Operations, Liberty Global** | Amsterdam, NL & London, UK (Sep 2022 - Sep 2023)  
-  Created AI strategies for European companies Virgin Media O2, Sunrise, VodafoneZiggo and Telenet. Served as PM for 130+ person team managing telemetry processing and analytics for strategic telco decision-making. 
+  Created AI strategies for European companies Virgin Media O2, Sunrise, VodafoneZiggo and Telenet. Served as PM for 130+ person engineer team managing telemetry processing and analytics for strategic telco decision-making. 
 
 * **Founder, GEOVISUAL** | Dubrovnik, Croatia (Sep 2017 - Aug 2022)  
-  Built geospatial intelligence company focused on world models, created new convolutional neural network (CNN) models for land erosion, delivered 20+ projects and products.
+  Built geospatial intelligence company focused on world models, developed convolutional neural network (CNN) models for land erosion and multispectral image analysis for crops efficiency, delivered 20+ projects and products.
 
 * **Member Cartography Expert Group, Croatian Mountain Rescue Service** | Croatia (Jun 2014 - Jul 2021)  
-  Optimized geo-data workflow, co-created new educational program, and co-designed new database system.
+  [Created 9 publications](https://www.hgss.hr/kartografija/), optimized geo-data workflow, co-created new educational program, and co-designed new database system.
 
 * **COO & Executive Board Member, Croatian Mountain Rescue Service** | Dubrovnik, Croatia (Jan 2011 - Jun 2017)  
   Managed a 40-person team, led 150+ rescues. Boosted revenue 130% and grew membership 40% yearly through planning and fundraising.
