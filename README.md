@@ -99,6 +99,8 @@ I study real world and physical limits of tech progress.
 
 firstnamelastname at gmail dot com
 
+[github/matejkajinic](https://github.com/matejkajinic/)
+
 [x/matejkajinic](https://x.com/matejkajinic/)
 
 [in/matejkajinic](https://www.linkedin.com/in/matejkajinic/)
