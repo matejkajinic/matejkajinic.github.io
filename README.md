@@ -58,13 +58,13 @@ I study real world and physical limits of tech progress.
 ## Professional experience
 
 * **Research Analyst, Liberty Global Ventures** | Denver, CO & Palo Alto, CA (Oct 2023 - Present)  
-  Source early-stage companies in AI, energy, robotics, and silicon. Lead research, tech DD and write investment reports.
+  Source early-stage companies in AI, energy, robotics, and silicon. Lead research, tech due dilligence and write investment reports.
 
-* **Data Strategist, Liberty Global** | Amsterdam, NL & London, UK (Sep 2022 - Sep 2023)  
-  Created AI strategies for European companies like Virgin Media O2, Telenet, and VodafoneZiggo.
+* **Data Strategy and Operations, Liberty Global** | Amsterdam, NL & London, UK (Sep 2022 - Sep 2023)  
+  Created AI strategies for European companies Virgin Media O2, Sunrise, VodafoneZiggo and Telenet. Served as PM for 130+ person team managing telemetry processing and analytics for strategic telco decision-making. 
 
 * **Founder, GEOVISUAL** | Dubrovnik, Croatia (Sep 2017 - Aug 2022)  
-  Built geospatial intelligence company focused on world model, delivered 20+ projects and products, created new convolutional neural network (CNN) models for land erosion.
+  Built geospatial intelligence company focused on world models, created new convolutional neural network (CNN) models for land erosion, delivered 20+ projects and products.
 
 * **Member Cartography Expert Group, Croatian Mountain Rescue Service** | Croatia (Jun 2014 - Jul 2021)  
   Optimized geo-data workflow, co-created new educational program, and co-designed new database system.
