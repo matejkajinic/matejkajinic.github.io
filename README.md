@@ -15,7 +15,7 @@ I have an M.S. in Computer Science, where I researched using neural networks to 
 
 * **Founder** - built and led early forms of spatial intelligence, creating predictive "world models" from geospatial data to solve physical challenges
 
-* **Operator** - led Mountain Rescue Service unit for 6 years, participated in some of the most complex cave rescue operations in the world
+* **Operator and rescuer** - led Mountain Rescue Service unit for 6 years, participated in some of the most complex cave rescue operations in the world [(Riesending-Schachthöhle, Germany from depth of -980m in June 2014)](https://en.wikipedia.org/wiki/Riesending_cave_rescue)
 
 
 
@@ -73,7 +73,7 @@ I study real world and physical limits of tech progress.
   Managed a 40-person team, led 150+ rescues. Boosted revenue 130% and grew membership 40% yearly through planning and fundraising.
 
 * **Product Manager, Airport Dubrovnik** | Dubrovnik, Croatia (Nov 2019 - Apr 2020)  
-  Built and led team of engineers for internal learning management system achieving 85% reduction in instructors' administrative time and a 50% increase in employee engagement.
+  Built and led team of engineers for internal LMS serving 1000+ employees, achieving 90% reduction in administrative time and 60% increase in employee engagement
 
 ## Education
 
@@ -99,6 +99,6 @@ I study real world and physical limits of tech progress.
 
 firstnamelastname at gmail dot com
 
-x dot com /matejkajinic
+[x/matejkajinic](https://x.com/matejkajinic/)
 
-in dot com /matejkajinic
+[in/matejkajinic](https://www.linkedin.com/in/matejkajinic/)
