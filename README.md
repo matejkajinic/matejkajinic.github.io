@@ -58,7 +58,7 @@ I study real world and physical limits of tech progress.
 ## Professional experience
 
 * **Research Analyst, Liberty Global Ventures** | Denver, CO & Palo Alto, CA (Oct 2023 - Present)  
-  Source early-stage companies in AI, energy, robotics, and silicon. Lead research, tech due dilligence and write investment reports.
+  Source early-stage companies in AI, energy, infra, robotics, silicon and crypto. Lead research, tech due dilligence and write investment reports.
 
 * **Data Strategy and Operations, Liberty Global** | Amsterdam, NL & London, UK (Sep 2022 - Sep 2023)  
   Created AI strategies for European companies Virgin Media O2, Sunrise, VodafoneZiggo and Telenet. Served as PM for 130+ person engineer team managing telemetry processing and analytics for strategic telco decision-making. 
@@ -69,7 +69,7 @@ I study real world and physical limits of tech progress.
 * **Member Cartography Expert Group, Croatian Mountain Rescue Service** | Croatia (Jun 2014 - Jul 2021)  
   [Created 9 publications](https://www.hgss.hr/kartografija/), optimized geo-data workflow, co-created new educational program, and co-designed new database system.
 
-* **COO & Executive Board Member, Croatian Mountain Rescue Service** | Dubrovnik, Croatia (Jan 2011 - Jun 2017)  
+* **Rescuer, COO & Executive Board Member, Croatian Mountain Rescue Service** | Dubrovnik, Croatia (Jan 2011 - Jun 2017)  
   Managed a 40-person team, led 150+ rescues. Boosted revenue 130% and grew membership 40% yearly through planning and fundraising.
 
 * **Product Manager, Airport Dubrovnik** | Dubrovnik, Croatia (Nov 2019 - Apr 2020)  
