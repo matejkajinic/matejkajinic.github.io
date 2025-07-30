@@ -66,7 +66,7 @@ I study real world and physical limits of tech progress.
   Created AI strategies for European companies Virgin Media O2, Sunrise, VodafoneZiggo and Telenet. Served as PM for 130+ person engineer team managing telemetry processing and analytics for strategic telco decision-making. 
 
 * **Founder, GEOVISUAL** | Dubrovnik, Croatia (Sep 2017 - Aug 2022)  
-  Built geospatial intelligence company focused on world models, developed convolutional neural network (CNN) models for land erosion and multispectral image analysis for crops efficiency, delivered 20+ projects and products.
+  Built geospatial intelligence company focused on world models, developed convolutional neural network (CNN) models for land erosion and multispectral image analysis for land cover, built digital elevation models (DEMs), delivered 20+ projects and products.
 
 * **Member Cartography Expert Group, Croatian Mountain Rescue Service** | Croatia (Jun 2014 - Jul 2021)  
   [Created 9 publications](https://www.hgss.hr/kartografija/), optimized geo-data workflow, co-created new educational program, and co-designed new database system.
