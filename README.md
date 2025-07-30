@@ -29,7 +29,7 @@ I study real world and physical limits of tech progress.
 
 * **[Nuclear Energy (July 2024)](https://github.com/matejkajinic/nuclear-energy)** - market overview of nuclear reactor technologies
 
-* **[Energy Is All You Need (June 2024)](https://github.com/matejkajinic/energy-is-all-you-need)** - thesis why we need more nuclear and solar energy to power AI's growth, guiding infrastructure investments
+* **[Energy Is All You Need (June 2024)](https://github.com/matejkajinic/energy-is-all-you-need)** - thesis why we need more nuclear and solar + battery energy to power AI's growth, guiding infrastructure investments
 
 * **The Economics of Intelligence** (Internal Paper, March 2024) - detailed research of chip supply chain, bottlenecks, and predicts GPU needs in near and mid-term future
 
