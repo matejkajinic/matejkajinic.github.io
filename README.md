@@ -39,6 +39,8 @@ I study real world and physical limits of tech progress.
 
 ## Selected technical projects
 
+* **[ProntoPR](https://github.com/matejkajinic/prontopr)** - team of specialised autonomous agents can safely ship incremental features to production using GitHub pull-requests, code review, automated tests, and retrieval-augmented generation (RAG)
+
 * **[PhotoRewind](https://photorewind.com/)** - AI tool to fix old, damaged photos with machine learning. Built with Elixir, Phoenix; runs on Raspberry Pi 5.
 
 * **[AI for Historical Document Analysis](https://github.com/matejkajinic/3A-D20)** - natural language processing (NLP) system with long short-term memory (LSTM) to read and analyze handwritten docs from Dubrovnik archives from 13th century (Python, Tesseract OCR, OpenCV, Pandas)
