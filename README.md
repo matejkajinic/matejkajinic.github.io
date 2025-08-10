@@ -87,7 +87,7 @@ I study real world and physical limits of tech progress.
   Thesis: "Radio Signal Propagation Models in Urban Areas"
   
 
-## Things that I like to do in free time
+## Side projects
 * **[Kryptos sculpture - K4 (unsolved)](https://matejkajinic.github.io/kryptos-k4/)** - attempt to solve remaining Kryptos sculpture
 
 * **[SECP256K1 curve visualization](https://github.com/matejkajinic/secp256k1-viz/)** - visualizing Bitcoin's SECP256K1 elliptic curve
@@ -96,6 +96,9 @@ I study real world and physical limits of tech progress.
 
 * **[The Manifestos](https://github.com/matejkajinic/the-manifestos)** - list inspired by conversation between David Perell and Marc Andreessen, Marc concluded: 'It's amazing there aren't more manifestos.'
 
+
+## Things I like to do in free time
+Lift heavy, swim long, walk far, eat a lot, watch tv shows and movies, read more.
 
 ## Contact
 
