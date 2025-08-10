@@ -94,7 +94,7 @@ I study real world and physical limits of tech progress.
 
 * **[Double pendulum simulation](https://github.com/matejkajinic/double-pendulum-simulation)** - visualization of double pendulum simulation
 
-* **[The Manifestos](https://github.com/matejkajinic/the-manifestos)** - list inspired by conversation between David Perell and Marc Andreessen, Marc concluded: 'It's amazing there aren't more manifestos.'
+* **[The Manifestos](https://github.com/matejkajinic/the-manifestos)** - list inspired by conversation between David Perell and Marc Andreessen, Marc concluded: *'It's amazing there aren't more manifestos'*.
 
 
 ## Things I like to do in free time
