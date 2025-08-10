@@ -85,6 +85,8 @@ I study real world and physical limits of tech progress.
 
 * **B.S. in Electrical Engineering & Communication Technologies**, University of Dubrovnik  
   Thesis: "Radio Signal Propagation Models in Urban Areas"
+
+* **Mathematics**, University of Dubrovnik
   
 
 ## Side projects
