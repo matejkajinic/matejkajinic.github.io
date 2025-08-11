@@ -47,15 +47,17 @@ I study real world and physical limits of tech progress.
 
 * **[Drone Swarm Simulation](https://github.com/matejkajinic/ros-flocking)** - simulates group drone flights with ROS (C++, ROS, Gazebo, Python)
 
-* **[Google Coding Challenge](https://github.com/matejkajinic/google-code-challenge)** - participating in Google Coding Challenge (Python)
-
 * **[Predict Breast Cancer](https://github.com/matejkajinic/predict-breast-cancer)** - demo test for breast cancer prediction (Python, Tensorflow, Keras)
 
 * **[VC Liquidation Preference Simulator](https://github.com/matejkajinic/vcliquidation)** - web app to model VC payouts for founders and investors (JavaScript, Vite, Recharts)
 
 * **[GPU Memory Comparison](https://github.com/matejkajinic/gpu-memory-comparison)** - visualization of different types of GPU memory (JavaScript, React, Recharts)
 
+## Hiring challenges
 
+* **[Google Coding Challenge](https://github.com/matejkajinic/google-code-challenge)** - participating in Google Coding Challenge (Python)
+
+* **[Warp.dev Hiring Challenge](https://github.com/matejkajinic/warp-hiring-challenge)** - participating in Warp.dev hiring challenge
 
 ## Professional experience
 
