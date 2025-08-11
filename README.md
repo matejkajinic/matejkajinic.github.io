@@ -95,10 +95,6 @@ I study real world and physical limits of tech progress.
 ## Side projects
 * **[Kryptos sculpture - K4 (unsolved)](https://matejkajinic.github.io/kryptos-k4/)** - attempt to solve remaining Kryptos sculpture
 
-* **[SECP256K1 curve visualization](https://github.com/matejkajinic/secp256k1-viz/)** - visualizing Bitcoin's SECP256K1 elliptic curve
-
-* **[Double pendulum simulation](https://github.com/matejkajinic/double-pendulum-simulation)** - visualization of double pendulum simulation
-
 * **[The Manifestos](https://github.com/matejkajinic/the-manifestos)** - list inspired by conversation between David Perell and Marc Andreessen, Marc concluded: *'It's amazing there aren't more manifestos'*.
 
 
