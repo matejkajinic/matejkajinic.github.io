@@ -1,22 +1,10 @@
 # Matej Kajinic
 
-I'm a research-driven engineer, investor, and founder with broad range of interests. I'm an optimist and I believe almost everything is achievable with technology.
-I also believe there are two currencies of today: **FLOPS (intelligence)** and **Watts (energy)**.
+I’m an engineer-investor who pairs hands-on tech work with market analysis to make a few high-conviction, concentrated long-term bets on outliers.
+
+My work is driven by a core thesis: the world’s two most valuable currencies are FLOPS (Intelligence) and Watts (Energy). 
 
 I have an M.S. in Computer Science, where I researched using neural networks to forecast financial market trends. I also have a B.S. in Electrical Engineering & Communication Technologies, focused on electromagnetic waves and real-world propagation models.
-
-
-
-## Highlights
-
-* **Venture capital** - sourced early startups (e.g., Cursor, Perplexity) with >15x theoretical returns in 18 months, led tech DD on 20+ deals (e.g., Groq, MavenAGI)
-
-* **Public markets** - over 10 years of investing in equities and digital assets, outperforming benchmark (S&P 500) by 46.9 percentage points
-
-* **Founder** - built and led early forms of spatial intelligence, creating predictive "world models" from geospatial data to solve physical challenges
-
-* **Operator and rescuer** - led Mountain Rescue Service unit for 6 years, participated in some of the most complex cave rescue operations in the world [(Riesending-Schachthöhle, Germany from depth of -980m in June 2014)](https://en.wikipedia.org/wiki/Riesending_cave_rescue)
-
 
 
 ## Research and writing
