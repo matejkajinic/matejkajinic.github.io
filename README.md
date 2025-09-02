@@ -43,9 +43,11 @@ I study real world and physical limits of tech progress.
 
 ## Hiring challenges
 
-* **[Warp.dev Hiring Challenge](https://github.com/matejkajinic/warp-hiring-challenge)** - participating in Warp.dev hiring challenge
+* **[Bitwise Research Hiring Contest](https://github.com/matejkajinic/bitwise-research-hiring-contest)**
 
-* **[Google Coding Challenge](https://github.com/matejkajinic/google-code-challenge)** - participating in Google Coding Challenge (Python)
+* **[Warp.dev Hiring Challenge](https://github.com/matejkajinic/warp-hiring-challenge)**
+
+* **[Google Coding Challenge](https://github.com/matejkajinic/google-code-challenge)**
 
   
 
