@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% assign meta_title = page.title | default: site.title %}
+    {% assign meta_description = page.description | default: site.description %}
+    <title>{% if meta_title == site.title %}{{ site.title }}{% else %}{{ meta_title }} · {{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ meta_description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ meta_title }}">
+    <meta name="twitter:description" content="{{ meta_description }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="header-links">
+          <a href="https://github.com/matejkajinic/" rel="noreferrer">GitHub</a>
+          <a href="https://x.com/matejkajinic/" rel="noreferrer">X</a>
+          <a href="https://www.linkedin.com/in/matejkajinic/" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:matejkajinic@gmail.com">Email</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-shell">
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+  </body>
+</html>

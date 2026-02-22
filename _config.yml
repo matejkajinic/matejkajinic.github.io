@@ -1,0 +1,12 @@
+title: Matej Kajinic
+description: Engineer, researcher, and venture partner working on AI systems and energy.
+url: https://matejkajinic.github.io
+# Rebuild marker: keeps config functional while forcing a fresh Pages deployment.
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - Gemfile
+  - Gemfile.lock

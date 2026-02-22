@@ -1,0 +1,262 @@
+:root {
+  --bg: #080808;
+  --text: #ffffff;
+  --muted: #ffffff;
+  --line: #222222;
+  --line-soft: #1a1a1a;
+  --font-sans: "Inter Tight", "Helvetica Neue", "Segoe UI", sans-serif;
+  --space-xs: 0.35rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.25rem;
+  --space-xl: 2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.56;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.header-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 650;
+  font-size: 1.03rem;
+  letter-spacing: -0.01em;
+}
+
+.header-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.header-links a:hover {
+  color: var(--text);
+}
+
+.page-shell {
+  padding: 2.8rem 1.25rem 3.7rem;
+}
+
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.intro-copy {
+  margin: 0 auto var(--space-xl);
+  text-align: center;
+}
+
+.intro-line {
+  margin: 0;
+}
+
+.intro-line--lead {
+  color: var(--text);
+  font-size: clamp(1.05rem, 2.1vw, 1.26rem);
+  line-height: 1.45;
+  letter-spacing: 0.012em;
+  font-weight: 500;
+  max-width: none;
+  margin-bottom: 1.2rem;
+  text-wrap: balance;
+  white-space: nowrap;
+}
+
+.intro-line--detail {
+  color: var(--text);
+  font-size: 0.98rem;
+  line-height: 1.62;
+  margin: 0 auto var(--space-sm);
+  max-width: 81ch;
+}
+
+.intro-line--detail:last-child {
+  margin-bottom: 0;
+}
+
+.content a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff2b;
+}
+
+.content a:hover {
+  border-bottom-color: #ffffff99;
+}
+
+.section {
+  margin: 0;
+  border-top: 1px solid var(--line);
+  padding: 0;
+}
+
+.section:last-of-type {
+  border-bottom: 1px solid var(--line);
+}
+
+.section summary {
+  list-style: none;
+  cursor: pointer;
+  padding: var(--space-md) 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text);
+}
+
+.section summary::-webkit-details-marker {
+  display: none;
+}
+
+.section summary::after {
+  content: "+";
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1;
+  width: 1rem;
+  text-align: center;
+}
+
+.section[open] summary::after {
+  content: "−";
+}
+
+.section[open] summary {
+  border-bottom: 1px solid var(--line-soft);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-sm);
+}
+
+.section summary:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.section > *:not(summary) {
+  margin: 0 0 var(--space-md);
+  color: var(--muted);
+}
+
+.section ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.section li {
+  margin: 0;
+  padding: 0 0 0.9rem;
+  font-size: 0.97rem;
+}
+
+.section .item-subline {
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+.section .item-quote {
+  font-style: italic;
+}
+
+.section li + li {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 0.9rem;
+}
+
+.section strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.section em {
+  color: var(--muted);
+}
+
+.section blockquote {
+  margin: 0.8rem 0 1rem;
+  padding: 0.75rem 0 0.75rem 0.9rem;
+  border-left: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8536rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.site-footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 2rem;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (max-width: 720px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.55rem;
+  }
+
+  .header-links {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .page-shell {
+    padding-top: 2.2rem;
+  }
+
+  .intro-line--lead {
+    white-space: normal;
+  }
+}
