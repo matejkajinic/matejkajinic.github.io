@@ -1,6 +1,6 @@
 # Matej Kajinic
 
-I'm an engineer, researcher and venture partner. My work is driven by a core thesis: the world's two most valuable currencies are FLOPS (Intelligence) and Watts (Energy).
+I'm an engineer, researcher, and venture partner. Former mountain and cave rescuer. My work is driven by a core thesis: the world's two most valuable currencies are FLOPS (Intelligence) and Watts (Energy).
 
 I have an M.S. in Computer Science (neural networks for financial market forecasting) and a B.S. in Electrical Engineering (electromagnetic waves and real-world propagation models).
 

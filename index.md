@@ -5,7 +5,7 @@ description: Engineer, researcher, and venture partner working on AI systems and
 ---
 
 <section class="intro-copy">
-  <p class="intro-line intro-line--lead">I’m an engineer, researcher and venture partner.</p>
+  <p class="intro-line intro-line--lead">I’m an engineer, researcher, and venture partner. Former mountain and cave rescuer.</p>
   <p class="intro-line intro-line--detail">My work is driven by a core thesis: the world’s two most valuable currencies are FLOPS (Intelligence) and Watts (Energy).</p>
   <p class="intro-line intro-line--detail">I have an M.S. in Computer Science (neural networks for financial market forecasting) and a B.S. in Electrical Engineering (electromagnetic waves and real-world propagation models).</p>
 </section>
