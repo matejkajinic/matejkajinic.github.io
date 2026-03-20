@@ -6,6 +6,8 @@ from __future__ import annotations
 import datetime as dt
 import json
 import pathlib
+import posixpath
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -99,6 +101,50 @@ def render_source_content(source_path: str, text: str) -> str:
     return "\n\n".join(blocks).strip() + "\n"
 
 
+def rewrite_relative_image_links(repo: str, source_path: str, text: str) -> str:
+    source_dir = posixpath.dirname(source_path)
+
+    def to_raw_url(url: str) -> str:
+        trimmed = url.strip()
+        if not trimmed:
+            return trimmed
+        lower = trimmed.lower()
+        if (
+            "://" in trimmed
+            or lower.startswith("data:")
+            or lower.startswith("mailto:")
+            or trimmed.startswith("#")
+        ):
+            return trimmed
+
+        normalized = trimmed.lstrip("./")
+        if source_dir:
+            normalized = posixpath.normpath(posixpath.join(source_dir, normalized))
+        else:
+            normalized = posixpath.normpath(normalized)
+        encoded = urllib.parse.quote(normalized, safe="/")
+        return f"https://raw.githubusercontent.com/{repo}/HEAD/{encoded}"
+
+    def replace_markdown_image(match: re.Match[str]) -> str:
+        alt_text = match.group(1)
+        destination = match.group(2)
+        suffix = match.group(3) or ""
+        return f"![{alt_text}]({to_raw_url(destination)}{suffix})"
+
+    def replace_html_img(match: re.Match[str]) -> str:
+        prefix = match.group(1)
+        destination = match.group(2)
+        suffix = match.group(3)
+        return f'{prefix}{to_raw_url(destination)}{suffix}'
+
+    markdown_pattern = r"!\[([^\]]*)\]\(([^)\s]+)(\s+\"[^\"]*\")?\)"
+    html_pattern = r'(<img[^>]*\ssrc=["\'])([^"\']+)(["\'][^>]*>)'
+
+    updated = re.sub(markdown_pattern, replace_markdown_image, text)
+    updated = re.sub(html_pattern, replace_html_img, updated, flags=re.IGNORECASE)
+    return updated
+
+
 def fetch_commit(repo: str, source_path: str) -> dict[str, str]:
     encoded_path = urllib.parse.quote(source_path, safe="/")
     url = (
@@ -139,6 +185,7 @@ def sync() -> int:
 
             content = fetch_text(raw_url)
             rendered = render_source_content(source_path, content)
+            rendered = rewrite_relative_image_links(repo, source_path, rendered)
             commit = fetch_commit(repo, source_path)
             front_matter = build_front_matter(entry, commit)
             output = (

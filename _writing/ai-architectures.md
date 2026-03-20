@@ -9,16 +9,16 @@ last_commit_sha: '71615a911a9db115b19c5668516201d1c68839d4'
 last_commit_date: '2024-10-30T12:00:00Z'
 ---
 
-<!-- Generated at 2026-03-20T21:59:12Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:08:20Z by scripts/sync_writing.py -->
 
 # A Comparison of AI Architectures: LLMs, LNNs, and Neuromorphic AI
 
 ## 1. Large Language Models (LLMs)
 
 **Example company:** [OpenAI](https://openai.com/)
-![llm](llm.png)
+![llm](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/llm.png)
 **Core Concept:** Utilizes transformer blocks and attention mechanisms to process sequential data, primarily text.
-![llm-processing](llm-processing.png)
+![llm-processing](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/llm-processing.png)
 **Processing Method:** Processes information by breaking it down into sequential tokens and analyzing relationships between them.
 
 ### Key Characteristics
@@ -44,9 +44,9 @@ last_commit_date: '2024-10-30T12:00:00Z'
 ## 2. Liquid Neural Networks (LNNs)
 
 **Example company:** [Liquid AI](https://www.liquid.ai/)
-![lln](lnn.png)
+![lln](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/lnn.png)
 **Core Concept:** A type of recurrent neural network that uses differential equations to model continuous-time dynamics.
-![lln-processing](lnn-processing.png)
+![lln-processing](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/lnn-processing.png)
 **Processing Method:** Handles data as a continuous flow, allowing it to adapt its behavior over time.
 
 ### Key Characteristics
@@ -72,9 +72,9 @@ last_commit_date: '2024-10-30T12:00:00Z'
 ## 3. Neuromorphic AI
 
 **Example company:** [conscium AI](https://conscium.com/)
-![neuromorphic](neuromorphic.png)
+![neuromorphic](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/neuromorphic.png)
 **Core Concept:** Inspired by the biological brain, this architecture uses networks of spiking neurons.
-![neuromorphic-processing](neuromorphic-processing.png)
+![neuromorphic-processing](https://raw.githubusercontent.com/matejkajinic/AI-architectures/HEAD/neuromorphic-processing.png)
 **Processing Method:** Operates based on discrete, event-driven "spikes", processing information only when new data arrives.
 
 ### Key Characteristics

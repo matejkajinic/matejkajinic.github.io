@@ -9,7 +9,7 @@ last_commit_sha: '35391f7ced9849b42f28b20fa4387bbb506ed8d1'
 last_commit_date: '2024-07-22T12:00:00Z'
 ---
 
-<!-- Generated at 2026-03-20T21:59:12Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:08:20Z by scripts/sync_writing.py -->
 
 # Advanced and Emerging Nuclear Reactor Technologies
 
@@ -81,4 +81,4 @@ This provides a general overview of reactor sizes, from large-scale power plants
 | **Small Modular Reactors** | 10-100 MWe | Aalo Atomics Aalo-1 (10), Oklo Aurora (15-50), NuScale Power Module (77), X-energy Xe-100 (80), ARC Clean Energy ARC-100 (100), Seaborg Technologies CMSR (100) |
 | **Large Custom** | >100 MWe | Kairos Power KP-FHR (140), Terrestrial Energy IMSR (195), General Atomics EM2 (265), Moltex Energy SSR-W (300), TerraPower Natrium (345), ThorCon (500) |
 
-![Nuclear Reactors](nuclear-reactors.svg)
+![Nuclear Reactors](https://raw.githubusercontent.com/matejkajinic/nuclear-energy/HEAD/nuclear-reactors.svg)
