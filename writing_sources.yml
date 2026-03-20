@@ -1,0 +1,45 @@
+- slug: atlas
+  repo: matejkajinic/ATLAS
+  title: ATLAS: Autonomous Task-Learning Agent System
+  description: ATLAS autonomously learns, plans, and executes tasks across business operations while maintaining compliance and security.
+  path: README.md
+- slug: ai-architectures
+  repo: matejkajinic/AI-architectures
+  title: AI Architectures
+  description: Comparison of AI architectures, including LLMs, LNNs, and neuromorphic AI.
+  path: README.md
+- slug: nuclear-energy
+  repo: matejkajinic/nuclear-energy
+  title: Nuclear Energy
+  description: Market overview of nuclear reactor technologies.
+  path: README.md
+- slug: energy-is-all-you-need
+  repo: matejkajinic/energy-is-all-you-need
+  title: Energy Is All You Need
+  description: Thesis on why we need more nuclear and solar plus battery energy to power AI growth.
+  path: README.md
+- slug: prontopr
+  repo: matejkajinic/prontopr
+  title: ProntoPR
+  description: Autonomous agents that ship incremental features to production through pull requests and CI.
+  path: README.md
+- slug: 3a-d20
+  repo: matejkajinic/3A-D20
+  title: AI for Historical Document Analysis
+  description: NLP system for reading and analyzing handwritten historical documents.
+  path: README.md
+- slug: ros-flocking
+  repo: matejkajinic/ros-flocking
+  title: Drone Swarm Simulation
+  description: Simulation of collaborative drone flights with ROS and Gazebo.
+  path: README.md
+- slug: predict-breast-cancer
+  repo: matejkajinic/predict-breast-cancer
+  title: Predict Breast Cancer
+  description: Demonstration project for breast cancer prediction.
+  path: README.md
+- slug: the-manifestos
+  repo: matejkajinic/the-manifestos
+  title: The Manifestos
+  description: Curated manifesto list inspired by David Perell and Marc Andreessen.
+  path: README.md
