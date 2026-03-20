@@ -37,7 +37,7 @@
   repo: matejkajinic/predict-breast-cancer
   title: Predict Breast Cancer
   description: Demonstration project for breast cancer prediction.
-  path: README.md
+  path: breast_cancer_notebook.ipynb
 - slug: the-manifestos
   repo: matejkajinic/the-manifestos
   title: The Manifestos

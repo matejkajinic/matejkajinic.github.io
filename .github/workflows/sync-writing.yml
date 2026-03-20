@@ -1,0 +1,36 @@
+name: Sync Writing Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-writing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate writing pages
+        run: python3 scripts/sync_writing.py
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: sync writing pages"
+          title: "chore: sync writing pages"
+          body: |
+            Automated update of generated `_writing/*.md` pages
+            from `writing_sources.yml`.
+          branch: chore/sync-writing-pages
+          delete-branch: true

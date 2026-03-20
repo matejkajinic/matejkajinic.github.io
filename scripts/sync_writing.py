@@ -9,6 +9,7 @@ import pathlib
 import sys
 import urllib.parse
 import urllib.request
+from urllib.error import HTTPError, URLError
 
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -80,6 +81,24 @@ def build_front_matter(entry: dict[str, str], commit: dict[str, str]) -> str:
     return "\n".join(lines)
 
 
+def render_source_content(source_path: str, text: str) -> str:
+    if not source_path.endswith(".ipynb"):
+        return text
+
+    notebook = json.loads(text)
+    blocks: list[str] = []
+    for cell in notebook.get("cells", []):
+        source = "".join(cell.get("source", []))
+        if not source.strip():
+            continue
+        if cell.get("cell_type") == "markdown":
+            blocks.append(source.rstrip())
+            continue
+        if cell.get("cell_type") == "code":
+            blocks.append(f"```python\n{source.rstrip()}\n```")
+    return "\n\n".join(blocks).strip() + "\n"
+
+
 def fetch_commit(repo: str, source_path: str) -> dict[str, str]:
     encoded_path = urllib.parse.quote(source_path, safe="/")
     url = (
@@ -109,20 +128,32 @@ def sync() -> int:
         return 1
 
     now = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    failures: list[str] = []
     for entry in entries:
-        slug = entry["slug"]
-        source_path = entry.get("path", "README.md")
-        repo = entry["repo"]
-        raw_path = urllib.parse.quote(source_path, safe="/")
-        raw_url = f"https://raw.githubusercontent.com/{repo}/HEAD/{raw_path}"
+        try:
+            slug = entry["slug"]
+            source_path = entry.get("path", "README.md")
+            repo = entry["repo"]
+            raw_path = urllib.parse.quote(source_path, safe="/")
+            raw_url = f"https://raw.githubusercontent.com/{repo}/HEAD/{raw_path}"
 
-        content = fetch_text(raw_url)
-        commit = fetch_commit(repo, source_path)
-        front_matter = build_front_matter(entry, commit)
-        output = f"{front_matter}\n\n<!-- Generated at {now} by scripts/sync_writing.py -->\n\n{content}\n"
-        (OUTPUT_DIR / f"{slug}.md").write_text(output, encoding="utf-8")
-        print(f"Synced {slug}")
+            content = fetch_text(raw_url)
+            rendered = render_source_content(source_path, content)
+            commit = fetch_commit(repo, source_path)
+            front_matter = build_front_matter(entry, commit)
+            output = (
+                f"{front_matter}\n\n"
+                f"<!-- Generated at {now} by scripts/sync_writing.py -->\n\n"
+                f"{rendered}\n"
+            )
+            (OUTPUT_DIR / f"{slug}.md").write_text(output, encoding="utf-8")
+            print(f"Synced {slug}")
+        except (KeyError, ValueError, HTTPError, URLError) as exc:
+            failures.append(f"{entry.get('slug', '<unknown>')}: {exc}")
+            print(f"Failed {entry.get('slug', '<unknown>')}: {exc}", file=sys.stderr)
 
+    if failures:
+        return 1
     return 0
 
 
