@@ -145,6 +145,20 @@ def rewrite_relative_image_links(repo: str, source_path: str, text: str) -> str:
     return updated
 
 
+def normalize_compact_tables(text: str) -> str:
+    fixed_lines: list[str] = []
+    for line in text.splitlines():
+        # Some READMEs include whole markdown tables collapsed into one line:
+        # "| H1 | H2 | | :--- | :--- | | row1 | row2 | ..."
+        # Split these back into per-row lines for reliable rendering.
+        if line.startswith("|") and " | | " in line and line.count("|") >= 12:
+            rebuilt = line.replace(" | | ", " |\n| ").replace("|| ", "|\n| ")
+            fixed_lines.append(rebuilt)
+            continue
+        fixed_lines.append(line)
+    return "\n".join(fixed_lines)
+
+
 def fetch_commit(repo: str, source_path: str) -> dict[str, str]:
     encoded_path = urllib.parse.quote(source_path, safe="/")
     url = (
@@ -186,6 +200,7 @@ def sync() -> int:
             content = fetch_text(raw_url)
             rendered = render_source_content(source_path, content)
             rendered = rewrite_relative_image_links(repo, source_path, rendered)
+            rendered = normalize_compact_tables(rendered)
             commit = fetch_commit(repo, source_path)
             front_matter = build_front_matter(entry, commit)
             output = (

@@ -9,7 +9,7 @@ last_commit_sha: '682bdee1f298ea0935dfd52e5e2e958134c89167'
 last_commit_date: '2025-07-30T14:01:05Z'
 ---
 
-<!-- Generated at 2026-03-20T22:08:20Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:14:57Z by scripts/sync_writing.py -->
 
 # ProntoPR - Ship Simple Features
 
@@ -68,4 +68,3 @@ pre-commit install
 ## License
 
 MIT – see [LICENSE](LICENSE).
-

@@ -9,7 +9,7 @@ last_commit_sha: '35391f7ced9849b42f28b20fa4387bbb506ed8d1'
 last_commit_date: '2024-07-22T12:00:00Z'
 ---
 
-<!-- Generated at 2026-03-20T22:08:20Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:14:57Z by scripts/sync_writing.py -->
 
 # Advanced and Emerging Nuclear Reactor Technologies
 
