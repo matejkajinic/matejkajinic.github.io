@@ -106,6 +106,9 @@ body {
 .article-prose {
   color: var(--text);
   font-size: 1rem;
+  /* Wide markdown tables scroll instead of squashing columns */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .article-prose > *:first-child {
@@ -187,6 +190,61 @@ body {
 .article-prose img {
   max-width: 100%;
   height: auto;
+}
+
+/* GFM tables → semantic <table>; style as readable data grids */
+.article-prose table {
+  width: 100%;
+  min-width: min(100%, max-content);
+  border-collapse: collapse;
+  margin: 1.15rem 0 1.35rem;
+  font-size: clamp(0.8rem, 1.55vw, 0.92rem);
+  line-height: 1.45;
+  border: 1px solid var(--line);
+  background: #0a0a0a;
+}
+
+.article-prose caption {
+  caption-side: bottom;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-align: left;
+}
+
+.article-prose th,
+.article-prose td {
+  border: 1px solid var(--line-soft);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.article-prose thead th,
+.article-prose thead td {
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Body rows when <thead> is omitted (first row still often th) */
+.article-prose tbody tr:first-child th {
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.article-prose tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.article-prose tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.article-prose td ul,
+.article-prose td ol {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
 }
 
 .intro-copy {
