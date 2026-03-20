@@ -38,6 +38,7 @@
   title: Predict Breast Cancer
   description: Demonstration project for breast cancer prediction.
   path: breast_cancer_notebook.ipynb
+# If matejkajinic/the-manifestos has GitHub Pages enabled, that repo owns /the-manifestos/ on Pages—disable it there to use the reader page from this site.
 - slug: the-manifestos
   repo: matejkajinic/the-manifestos
   title: The Manifestos

@@ -105,6 +105,14 @@ This site now renders selected GitHub repos as on-site reader pages under paths 
 - Current setup is compatible with the default GitHub Pages Jekyll build because generated `_writing` pages are committed.
 - If you ever switch Pages source to **GitHub Actions**, you can move to a fully CI-built deploy flow later.
 
+### When a reader page “doesn’t match” the main site (e.g. The Manifestos)
+
+GitHub also publishes **project** sites from individual repos at `https://<user>.github.io/<repo>/`, with that repo’s own theme. That path is **separate** from your user site build. If Pages is enabled on e.g. [`the-manifestos`](https://github.com/matejkajinic/the-manifestos), visitors to [`matejkajinic.github.io/the-manifestos/`](https://matejkajinic.github.io/the-manifestos/) see **that** deployment—not the styled page generated here from `_writing/the-manifestos.md`.
+
+**To use this site’s layout for that URL:** in the project repo → **Settings → Pages → Build and deployment**, set the source to **None** (disable Pages), then deploy the `matejkajinic.github.io` repo so `_writing/the-manifestos.md` owns `/the-manifestos/`.
+
+**Alternative:** keep the project’s standalone site and give the reader here a different slug in `writing_sources.yml` (e.g. `manifestos`) so it lives at `/manifestos/` without path overlap.
+
 ---
 
 ## Contact
