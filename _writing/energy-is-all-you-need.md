@@ -9,7 +9,7 @@ last_commit_sha: 'cd4bad3371d533aec6c885df0c09012ecc95e446'
 last_commit_date: '2024-06-18T12:00:00Z'
 ---
 
-<!-- Generated at 2026-03-20T22:14:57Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:32:24Z by scripts/sync_writing.py -->
 
 # Energy is all you need
 

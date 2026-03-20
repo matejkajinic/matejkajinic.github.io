@@ -9,7 +9,7 @@ last_commit_sha: 'bccf5dd01a4a5ba8df60f843128a6e92a3e75357'
 last_commit_date: '2020-02-16T17:22:58Z'
 ---
 
-<!-- Generated at 2026-03-20T22:14:57Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-03-20T22:32:24Z by scripts/sync_writing.py -->
 
 # Birds (boid) simulation
 
