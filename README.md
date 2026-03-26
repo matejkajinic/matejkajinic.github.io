@@ -40,7 +40,9 @@ I have an M.S. in Computer Science (neural networks for financial market forecas
 
 ---
 
-## Technical Projects
+## Projects & cartography
+
+### Technical projects
 
 * **[ProntoPR](https://matejkajinic.github.io/prontopr/)**  
   A team of specialized autonomous agents that can safely ship incremental features to production using GitHub pull requests, code review, automated tests, and retrieval-augmented generation (RAG).  
@@ -62,9 +64,7 @@ I have an M.S. in Computer Science (neural networks for financial market forecas
   [Source](https://github.com/matejkajinic/predict-breast-cancer).  
   *Tech: Python, TensorFlow, Keras*
 
----
-
-## Topographic Cartography Publications
+### Topographic cartography
 
 Reviewed cartography publications, all available on the [Croatian Mountain Rescue Service website](https://www.hgss.hr/kartografija/):
 

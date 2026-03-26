@@ -27,17 +27,15 @@ description: Engineer, researcher, and venture partner working on AI systems and
 </details>
 
 <details class="section">
-  <summary>Technical Projects</summary>
+  <summary>Projects & cartography</summary>
+  <p class="section-subheading">Technical projects</p>
   <ul>
     <li><strong><a href="{{ '/prontopr/' | relative_url }}">ProntoPR</a></strong><br><span class="item-subline">A team of specialized autonomous agents that can safely ship incremental features to production using GitHub pull requests, code review, automated tests, and retrieval-augmented generation (RAG). <a href="https://github.com/matejkajinic/prontopr">Source</a>.</span><br><em class="item-subline">Tech: Python</em></li>
     <li><strong><a href="{{ '/3a-d20/' | relative_url }}">AI for Historical Document Analysis</a></strong><br><span class="item-subline">Natural language processing (NLP) system with long short-term memory (LSTM) to read and analyze handwritten documents from the Dubrovnik archives dating to the 13th century. <a href="https://github.com/matejkajinic/3A-D20">Source</a>.</span><br><em class="item-subline">Tech: Python, Tesseract OCR, OpenCV, Pandas</em></li>
     <li><strong><a href="{{ '/ros-flocking/' | relative_url }}">Drone Swarm Simulation</a></strong><br><span class="item-subline">Simulates group drone flights with ROS. <a href="https://github.com/matejkajinic/ros-flocking">Source</a>.</span><br><em class="item-subline">Tech: C++, ROS, Gazebo, Python</em></li>
     <li><strong><a href="{{ '/predict-breast-cancer/' | relative_url }}">Predict Breast Cancer</a></strong><br><span class="item-subline">Demo test for breast cancer prediction. <a href="https://github.com/matejkajinic/predict-breast-cancer">Source</a>.</span><br><em class="item-subline">Tech: Python, TensorFlow, Keras</em></li>
   </ul>
-</details>
-
-<details class="section">
-  <summary>Topographic Cartography Publications</summary>
+  <p class="section-subheading">Topographic cartography</p>
   <p>Reviewed cartography publications, all available on the <a href="https://www.hgss.hr/kartografija/">Croatian Mountain Rescue Service website</a>:</p>
   <ul>
     <li><strong>(4) PP Lastovo</strong><span class="item-subline"> (2020) - ISBN 978-953-7527-88-4</span></li>
