@@ -32,10 +32,6 @@ I have an M.S. in Computer Science (neural networks for financial market forecas
 * **Application of Neural Networks for Forecasting Financial Market Trends** *(Master's Thesis, July 2021)*  
   Built recurrent neural networks (RNN) with long short-term memory (LSTM) for predicting market trends.
 
----
-
-## Peer-Reviewed Publications
-
 * **[Educational Simulation Tools for Radio Wave Propagation Models](https://www.researchgate.net/publication/333340116_Educational_Simulation_Tools_for_Radio_Wave_Propagation_Models)**  
   *International Journal of Education and Information Technologies*, Volume 13, 2019.
 

@@ -21,12 +21,6 @@ description: Engineer, researcher, and venture partner working on AI systems and
     <li><strong>Economics of GPU</strong> <em>(Internal Paper, April 2024)</em><br><span class="item-subline">Financial models and analysis of GPU cloud economics and market dynamics.</span></li>
     <li><strong>The Economics of Intelligence</strong> <em>(Internal Paper, March 2024)</em><br><span class="item-subline">Detailed research on chip supply chain, bottlenecks, and predictions for GPU needs in the near and mid-term future.</span></li>
     <li><strong>Application of Neural Networks for Forecasting Financial Market Trends</strong> <em>(Master's Thesis, July 2021)</em><br><span class="item-subline">Built recurrent neural networks (RNN) with long short-term memory (LSTM) for predicting market trends.</span></li>
-  </ul>
-</details>
-
-<details class="section">
-  <summary>Peer-Reviewed Publications</summary>
-  <ul>
     <li><strong><a href="https://www.researchgate.net/publication/333340116_Educational_Simulation_Tools_for_Radio_Wave_Propagation_Models">Educational Simulation Tools for Radio Wave Propagation Models</a></strong><br><span class="item-subline"><em>International Journal of Education and Information Technologies</em>, Volume 13, 2019.</span></li>
     <li><strong><a href="https://ieeexplore.ieee.org/document/8910093">Simulation of Radio Wave Propagation Models on 800 MHz and 1.8 GHz in the City of Dubrovnik</a></strong><br><span class="item-subline">2018 2nd European Conference on Electrical Engineering and Computer Science (EECS), IEEE, 2018.</span></li>
   </ul>
