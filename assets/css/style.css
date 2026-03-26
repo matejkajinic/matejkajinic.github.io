@@ -95,10 +95,11 @@ body {
   gap: 0.8rem;
 }
 
-.header-start {
+.header-end {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.75rem;
+  flex-shrink: 0;
   min-width: 0;
 }
 
@@ -107,18 +108,20 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.125rem;
+  height: 2.125rem;
   padding: 0;
   border: 1px solid var(--line-soft);
   border-radius: 8px;
   background: transparent;
-  color: var(--text);
+  color: var(--muted);
   cursor: pointer;
   line-height: 0;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
 .theme-toggle:hover {
+  color: var(--text);
   background: var(--toggle-hover);
 }
 
@@ -557,7 +560,15 @@ a:focus-visible {
     gap: 0.55rem;
   }
 
+  .header-end {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
   .header-links {
+    flex: 1;
+    min-width: 0;
     gap: 0.8rem;
     flex-wrap: wrap;
   }
