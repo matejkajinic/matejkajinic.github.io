@@ -251,6 +251,7 @@ body {
 
 .intro-copy {
   margin: 0 0 var(--space-xl);
+  padding-bottom: 0.25rem;
   text-align: left;
 }
 
@@ -258,23 +259,24 @@ body {
   margin: 0;
 }
 
+/* Opening line: scan as a title; wraps naturally on narrow viewports */
 .intro-line--lead {
   color: var(--text);
-  font-size: clamp(1.05rem, 2.1vw, 1.26rem);
-  line-height: 1.45;
-  letter-spacing: 0.012em;
-  font-weight: 500;
-  max-width: none;
-  margin-bottom: 1.2rem;
-  white-space: nowrap;
+  font-size: clamp(1.12rem, 2.35vw, 1.35rem);
+  line-height: 1.32;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  margin-bottom: 1.45rem;
 }
 
+/* Body: slightly softer + shorter measure so dense creds read more easily */
 .intro-line--detail {
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.84);
   font-size: 0.98rem;
-  line-height: 1.62;
-  margin: 0 0 var(--space-sm);
-  max-width: 81ch;
+  line-height: 1.68;
+  font-weight: 400;
+  margin: 0 0 1.1rem;
+  max-width: 62ch;
 }
 
 .intro-line--detail:last-child {
@@ -439,9 +441,5 @@ a:focus-visible {
 
   .page-shell {
     padding-top: 2.2rem;
-  }
-
-  .intro-line--lead {
-    white-space: normal;
   }
 }
