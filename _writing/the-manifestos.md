@@ -9,7 +9,7 @@ last_commit_sha: 'e4f1e28e551164895060aeae673f7d06f68f4ee4'
 last_commit_date: '2024-05-12T18:40:45Z'
 ---
 
-<!-- Generated at 2026-03-20T22:32:24Z by scripts/sync_writing.py -->
+<!-- Generated at 2026-05-18T09:41:46Z by scripts/sync_writing.py -->
 
 # Why "The Manifestos"?
 
